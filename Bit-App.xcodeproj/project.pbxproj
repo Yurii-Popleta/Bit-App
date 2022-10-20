@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84660F202901B44800D05584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F1F2901B44800D05584 /* AppDelegate.swift */; };
-		84660F222901B44800D05584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F212901B44800D05584 /* SceneDelegate.swift */; };
-		84660F242901B44800D05584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F232901B44800D05584 /* ViewController.swift */; };
-		84660F272901B44800D05584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84660F252901B44800D05584 /* Main.storyboard */; };
-		84660F292901B44900D05584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84660F282901B44900D05584 /* Assets.xcassets */; };
-		84660F2C2901B44900D05584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84660F2A2901B44900D05584 /* LaunchScreen.storyboard */; };
+		84660F802901B8CD00D05584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84660F722901B8CD00D05584 /* Assets.xcassets */; };
+		84660F812901B8CD00D05584 /* ModelBTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F732901B8CD00D05584 /* ModelBTC.swift */; };
+		84660F822901B8CD00D05584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F742901B8CD00D05584 /* ViewController.swift */; };
+		84660F832901B8CD00D05584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84660F762901B8CD00D05584 /* Main.storyboard */; };
+		84660F852901B8CD00D05584 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F782901B8CD00D05584 /* CoinManager.swift */; };
+		84660F862901B8CD00D05584 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84660F792901B8CD00D05584 /* Launch Screen.storyboard */; };
+		84660F882901B8CD00D05584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F7B2901B8CD00D05584 /* AppDelegate.swift */; };
+		84660F892901B8CD00D05584 /* BitcoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F7C2901B8CD00D05584 /* BitcoinData.swift */; };
+		84660F8A2901B8CD00D05584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84660F7D2901B8CD00D05584 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84660F1C2901B44800D05584 /* Bit-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84660F1F2901B44800D05584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84660F212901B44800D05584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84660F232901B44800D05584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84660F262901B44800D05584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84660F282901B44900D05584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84660F2B2901B44900D05584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84660F2D2901B44900D05584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84660F722901B8CD00D05584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84660F732901B8CD00D05584 /* ModelBTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelBTC.swift; sourceTree = "<group>"; };
+		84660F742901B8CD00D05584 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84660F762901B8CD00D05584 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84660F772901B8CD00D05584 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84660F782901B8CD00D05584 /* CoinManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		84660F792901B8CD00D05584 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		84660F7B2901B8CD00D05584 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84660F7C2901B8CD00D05584 /* BitcoinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinData.swift; sourceTree = "<group>"; };
+		84660F7D2901B8CD00D05584 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,43 @@
 		84660F1E2901B44800D05584 /* Bit-App */ = {
 			isa = PBXGroup;
 			children = (
-				84660F1F2901B44800D05584 /* AppDelegate.swift */,
-				84660F212901B44800D05584 /* SceneDelegate.swift */,
-				84660F232901B44800D05584 /* ViewController.swift */,
-				84660F252901B44800D05584 /* Main.storyboard */,
-				84660F282901B44900D05584 /* Assets.xcassets */,
-				84660F2A2901B44900D05584 /* LaunchScreen.storyboard */,
-				84660F2D2901B44900D05584 /* Info.plist */,
+				84660F7B2901B8CD00D05584 /* AppDelegate.swift */,
+				84660F7D2901B8CD00D05584 /* SceneDelegate.swift */,
+				84660F7F2901B8CD00D05584 /* Model */,
+				84660F752901B8CD00D05584 /* View */,
+				84660F8D2901B9FF00D05584 /* Controller */,
+				84660F792901B8CD00D05584 /* Launch Screen.storyboard */,
+				84660F722901B8CD00D05584 /* Assets.xcassets */,
+				84660F772901B8CD00D05584 /* Info.plist */,
 			);
 			path = "Bit-App";
+			sourceTree = "<group>";
+		};
+		84660F752901B8CD00D05584 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84660F762901B8CD00D05584 /* Main.storyboard */,
+			);
+			name = View;
+			path = "../../../project/ByteCoin-iOS13/ByteCoin/View";
+			sourceTree = "<group>";
+		};
+		84660F7F2901B8CD00D05584 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84660F7C2901B8CD00D05584 /* BitcoinData.swift */,
+				84660F732901B8CD00D05584 /* ModelBTC.swift */,
+				84660F782901B8CD00D05584 /* CoinManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84660F8D2901B9FF00D05584 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84660F742901B8CD00D05584 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +133,7 @@
 				TargetAttributes = {
 					84660F1B2901B44800D05584 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,9 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84660F2C2901B44900D05584 /* LaunchScreen.storyboard in Resources */,
-				84660F292901B44900D05584 /* Assets.xcassets in Resources */,
-				84660F272901B44800D05584 /* Main.storyboard in Resources */,
+				84660F802901B8CD00D05584 /* Assets.xcassets in Resources */,
+				84660F832901B8CD00D05584 /* Main.storyboard in Resources */,
+				84660F862901B8CD00D05584 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +173,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84660F242901B44800D05584 /* ViewController.swift in Sources */,
-				84660F202901B44800D05584 /* AppDelegate.swift in Sources */,
-				84660F222901B44800D05584 /* SceneDelegate.swift in Sources */,
+				84660F882901B8CD00D05584 /* AppDelegate.swift in Sources */,
+				84660F822901B8CD00D05584 /* ViewController.swift in Sources */,
+				84660F892901B8CD00D05584 /* BitcoinData.swift in Sources */,
+				84660F812901B8CD00D05584 /* ModelBTC.swift in Sources */,
+				84660F852901B8CD00D05584 /* CoinManager.swift in Sources */,
+				84660F8A2901B8CD00D05584 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		84660F252901B44800D05584 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84660F262901B44800D05584 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84660F2A2901B44900D05584 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84660F2B2901B44900D05584 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84660F2E2901B44900D05584 /* Debug */ = {
@@ -285,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;
@@ -303,6 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Yurii-Popleta.Bit-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;

@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  Bit-App
+//  ByteCoin
 //
-//  Created by Admin on 20/10/2022.
+//  Created by Angela Yu on 11/09/2019.
+//  Copyright © 2019 The App Brewery. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
