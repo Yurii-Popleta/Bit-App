@@ -64,8 +64,8 @@
 			children = (
 				84660F7B2901B8CD00D05584 /* AppDelegate.swift */,
 				84660F7D2901B8CD00D05584 /* SceneDelegate.swift */,
-				84660F912901BD1A00D05584 /* New Group */,
 				84660F7F2901B8CD00D05584 /* Model */,
+				84660F912901BD1A00D05584 /* View */,
 				84660F8D2901B9FF00D05584 /* Controller */,
 				84660F792901B8CD00D05584 /* Launch Screen.storyboard */,
 				84660F722901B8CD00D05584 /* Assets.xcassets */,
@@ -92,12 +92,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		84660F912901BD1A00D05584 /* New Group */ = {
+		84660F912901BD1A00D05584 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				84660F922901BD6D00D05584 /* Main.storyboard */,
 			);
-			path = "New Group";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
